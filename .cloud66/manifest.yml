@@ -5,11 +5,10 @@ production:
         configuration:
             ruby_version: 2.1.2
     postgresql:
-       server: 
+        server: 
             unique_name: postgresql
-       configuration:
-           version: 9.3.4
-           postgis: true
+        configuration:
+            postgis: true
 #               version: 2.1.1
 # Cannot be specified anymore
 #          geos: 
