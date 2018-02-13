@@ -9,8 +9,8 @@ production:
             unique_name: postgresql
        configuration:
            version: 9.3.4
-           postgis:
-               version: 2.1.1
+           postgis: true
+#               version: 2.1.1
 # Cannot be specified anymore
 #          geos: 
 #              version: 3.4.2
