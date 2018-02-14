@@ -1,5 +1,9 @@
 PostgisSample::Application.routes.draw do
   root 'locations#index'
+
+  get 'read', :to => 'locations#read'
+  get 'write', :to => 'locations#write'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
